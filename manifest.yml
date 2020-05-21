@@ -6,4 +6,3 @@ applications:
   host: rest-service
   domain: guides.spring.io
   path: build/libs/gs-rest-service-0.1.0.jar
-  port: 9080
