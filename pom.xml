@@ -50,9 +50,9 @@
    <build>
 
    <distributionManagement>
-     <snapshotRepository>
-       <id>snapshots</id>
-       <url>http://192.168.0.84:8081/nexus/content/repositories/snapshots/</url>
-     </snapshotRepository>
+     <repository>
+       <id>Testrep</id>
+       <url>http://192.168.0.84:8081/nexus/content/repositories/Testrep</url>
+     </repository>
    </distributionManagement>
 </project>
