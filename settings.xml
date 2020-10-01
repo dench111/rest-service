@@ -4,6 +4,7 @@
 	<servers>
 	   <server>
 		  <id>Testrep</id>
+		  <name>applications</name>
 		  <username>admin</username>
 		  <password>admin123</password>
 	   </server>
