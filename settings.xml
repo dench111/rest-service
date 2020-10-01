@@ -5,8 +5,8 @@
 	   <server>
 		  <id>Testrep</id>
 		  <name>applications</name>
-		  <username>deployment</username>
-		  <password>Qq12345678</password>
+		  <username>admin</username>
+		  <password>admin123</password>
 	   </server>
 	</servers>
 </settings>
