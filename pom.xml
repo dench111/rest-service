@@ -39,8 +39,8 @@
 	
 		    <distributionManagement>
 	            <repository>
-		           <id>snapshots</id>
-		           <url>http://192.168.0.84:8081/nexus/content/repositories/snapshots</url>
+		           <id>Testrep</id>
+		           <url>http://192.168.0.84:8081/nexus/content/repositories/Testrep</url>
 	            </repository>
 	        </distributionManagement>
 
