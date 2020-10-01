@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>rest-service</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2</version>
 	<name>rest-service</name>
 	<description>Demo project for Spring Boot</description>
 
@@ -36,6 +36,18 @@
 			</exclusions>
 		</dependency>
 	</dependencies>
+	
+	<profiles>
+	    <profile>
+		    <id>nexus</id>
+		    <distributionManagement>
+	            <repository>
+		           <id>Testrep</id>
+		           <url>http://192.168.0.84:8081/nexus/content/repositories/Testrep</url>
+	            </repository>
+	        </distributionManagement>
+	    </profile>
+	</profiles>
 	<build>
 	    <plugins>
 			<plugin>
