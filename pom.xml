@@ -40,7 +40,9 @@
 		    <distributionManagement>
 	            <repository>
 		           <id>Testrep</id>
+				   <name>applications</name>
 		           <url>http://192.168.0.84:8081/nexus/content/repositories/Testrep</url>
+				   <layout>default</layout>
 	            </repository>
 				<snapshotRepository>
 				   <id>snapshots</id>
