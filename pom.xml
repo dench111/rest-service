@@ -36,7 +36,16 @@
 			</exclusions>
 		</dependency>
 	</dependencies>
-
+	
+	<plugin>
+	   <groupId>org.apache.maven.plugins</groupId>
+	   <artifactId>maven-deploy-plugin</artifactId>
+	   <version>${maven-deploy-plugin.version}</version>
+	   <configuration>
+		  <skip>true</skip>
+	   </configuration>
+	</plugin>
+	
 	<plugin>
 	   <groupId>org.sonatype.plugins</groupId>
 	   <artifactId>nexus-staging-maven-plugin</artifactId>
@@ -56,7 +65,4 @@
 		  <skipStaging>true</skipStaging>
 	   </configuration>
 	</plugin>
-
-
-
 </project>
