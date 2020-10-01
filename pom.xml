@@ -39,11 +39,11 @@
 	
 	<profiles>
 	    <profile>
-		    <id>nexus</id>
+		    <id>nexus-snapshots</id>
 		    <distributionManagement>
 	            <repository>
-		           <id>Testrep</id>
-		           <url>http://192.168.0.84:8081/nexus/content/repositories/Testrep</url>
+		           <id>nexus-snapshots</id>
+		           <url>http://192.168.0.84:8081/nexus/content/repositories/snapshots</url>
 	            </repository>
 	        </distributionManagement>
 	    </profile>

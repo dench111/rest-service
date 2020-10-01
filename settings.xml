@@ -1,6 +1,6 @@
 <servers>
    <server>
-      <id>nexus</id>
+      <id>nexus-snapshots</id>
       <username>admin</username>
       <password>admin123</password>
    </server>
