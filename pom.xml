@@ -36,23 +36,4 @@
 			</exclusions>
 		</dependency>
 	</dependencies>
-
-   <build>
-    <pluginManagement>
-      <plugins>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-deploy-plugin</artifactId>
-          <version>2.8.2</version>
-        </plugin>
-      </plugins>
-    </pluginManagement>
-   </build>
-
-   <distributionManagement>
-     <repository>
-       <id>Testrep</id>
-       <url>http://192.168.0.84:8081/nexus/content/repositories/Testrep</url>
-     </repository>
-   </distributionManagement>
 </project>
